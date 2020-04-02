@@ -1,14 +1,11 @@
   requrie "pry"
 class Cash_register
 
-  attr_accessor
+  attr_accessor :total 
 
-  def initialize
-    @total = total
-  end
-
-  def total
-
+  def initialize(discount=0)
+    @total = 0
+    @discount = discount
   end
 
   def add_item
