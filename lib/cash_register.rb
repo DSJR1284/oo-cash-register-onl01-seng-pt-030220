@@ -1,7 +1,7 @@
   require "pry"
 class CashRegister
 
-  attr_accessor :total
+  attr_accessor :total, :discount 
 
 
   def initialize(discount = 0)
@@ -26,7 +26,7 @@ class CashRegister
   def apply_discount
     if @discount > 0
       discount = @total*(@discount/100)
-      @total = @total.to_i- discount.to_i
+      @total -=  discount.to_i
     else
       "There is no discount to apply."
     end
