@@ -20,6 +20,7 @@ class CashRegister
     elsif quantity == 1
       @items << item
       @total += price
+    end 
   end
 
   def apply_discount
@@ -36,16 +37,13 @@ class CashRegister
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 end
+
+
+
+
+
+
+
+
+
