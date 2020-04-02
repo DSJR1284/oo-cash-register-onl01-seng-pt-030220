@@ -27,7 +27,7 @@ class CashRegister
     if @discount > 0
       discount = @total*(@discount/100)
       @total -= discount
-    else 
+    else
       "There is no discount to apply."
   end
 
