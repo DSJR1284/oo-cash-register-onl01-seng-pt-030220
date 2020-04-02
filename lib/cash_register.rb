@@ -29,9 +29,9 @@ class CashRegister
       @total -= discount
     else
       "There is no discount to apply."
-    end 
+    end
   end
-  
+
 
   def item
 
