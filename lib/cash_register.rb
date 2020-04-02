@@ -17,7 +17,7 @@ class CashRegister
         @items << item
         quantity -= 1
       end
-    elsif quantity ==1
+    elsif quantity == 1
       @items << item
       @total += price
   end
