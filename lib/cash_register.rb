@@ -1,7 +1,7 @@
   requrie "pry"
 class Cash_register
 
-  attr_accessor :total 
+  attr_accessor :total
 
   def initialize(discount=0)
     @total = 0
@@ -38,4 +38,4 @@ class Cash_register
 
 
 
-end 
+end
